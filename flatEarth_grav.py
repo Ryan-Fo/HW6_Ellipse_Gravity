@@ -34,9 +34,9 @@ if __name__ == "__main__":
     
     #defined points on the north pole, south pole, and equator
     #flat earth "Thickness" defines poles, and radius defines equator
-    point_northpole = np.array([0, 0, 4750*km])
+    point_northpole = np.array([0, 0, 2375*km])
     point_equator   = np.array([10018.5*km,0,0])
-    point_southpole = np.array([0,0,-4750*km])
+    point_southpole = np.array([0,0,-2375*km])
     grav_vec_northpole = ([0,0,0])
     grav_vec_equator = ([0,0,0])
     grav_vec_southpole = ([0,0,0])
